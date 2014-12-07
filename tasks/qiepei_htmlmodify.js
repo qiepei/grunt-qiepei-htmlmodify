@@ -8,7 +8,7 @@
 'use strict';
 
 module.exports = function (grunt) {
-    grunt.registerMultiTask('qiepei_htmlmin', 'Modified HTML', function () {
+    grunt.registerMultiTask('qiepei_htmlmodify', 'Modified HTML', function () {
         this.files.forEach(function (file) {
             var src = file.src[0];
 

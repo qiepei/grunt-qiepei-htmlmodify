@@ -1,7 +1,7 @@
 {
   "name": "grunt-qiepei-htmlmodify",
   "description": "modify the html to move the script into one and put it to the end",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/qiepei/qiepei-htmlmodify",
   "author": {
     "name": "qiepei.qp",
