@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             var input = grunt.file.read(src);
 
             var output = input.replace(/<script\s.*<\/script>/ig,'');
-            var insertScript = '<script type="text/javascript" src="index.js"></script>'
+            var insertScript = '<script type="text/javascript" src="index-min.js"></script>'
             output = output.replace(/<\/body>/ig, insertScript+'</body>');
 
             grunt.file.write(file.dest, output);
